@@ -71,6 +71,9 @@ var takeStore = {};
 
 var participants = ["Bombina",
 "rabbit_rail",
+"SUPERIOЯ",
+"Sretna",
+"Zontjuven",
 "LostDomain",
 "aivar",
 "mopskillen",
@@ -79,6 +82,7 @@ var participants = ["Bombina",
 "Kettx",
 "lejonet",
 "speedmaster100",
+"Foxare",
 "Hjulpynt",
 "NisseNasse",
 "matse55",
@@ -89,6 +93,7 @@ var participants = ["Bombina",
 "pancosmic",
 "iTurf",
 "LBz",
+"Arkiv",
 "rojter",
 "well",
 "elena",
@@ -149,7 +154,8 @@ var participants = ["Bombina",
 "polythene",
 "Shivers",
 "Bizkit",
-"MrDent"];
+"MrDent",
+"eweone"];
 
 
 // ---- Prototypes ----
@@ -1030,7 +1036,7 @@ function colorFromString(str) {
     if (participants.indexOf(str) >= 0) {
       return colorFromStringHSV(str, 0, 0xFF, 0xFF);
     } else {
-      return colorFromStringHSV(str, 0, 0x10, 0xFF);    
+      return colorFromStringHSV(str, 0, 0x00, 0xFF);    
     }
   }
 
